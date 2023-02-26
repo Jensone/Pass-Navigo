@@ -15,7 +15,7 @@
         <header class="flex-center">
             <img src="./assets/logo.png" alt="Logo Pass Navigo" width="200">
         </header>
-        <section class="flex-center">
+        <section class="flex-column">
             <div class="navigo">
                 <div class="navigo-valide">
                     <img src="./assets/navigo-valide.svg" alt="Pass Navigo">
@@ -24,8 +24,21 @@
                     <img src="./assets/navigo-invalide.svg" alt="Pass Navigo">
                 </div>
             </div>
-            <div class="portique">
-                
+            <div class="flex-center">
+                <div class="chargement">
+                    <div class="point-1"></div>
+                    <div class="point-2"></div>
+                    <div class="point-3"></div>
+                </div>
+            </div>
+            <div class="portique flex-column">
+                <div class="affichage flex-column">
+                    <p>Valide jusqu'au :</p>
+                    <p class="date"></p>
+                    <p>Accès</p>
+                    <p class="access"></p>
+                </div>
+                <div class="statut"></div>
             </div>
         </section>
         <footer class="flex-center">
